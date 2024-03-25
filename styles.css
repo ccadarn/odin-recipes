@@ -1,0 +1,40 @@
+body {
+    background-image: url('images/cutting_board.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    padding: 10px; /* Add some padding to the top and bottom of the text */
+    border-radius: 50px; /* Make the border radius less drastic, 50px instead of 50% */
+}
+
+
+div {
+    text-align: center;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+img {
+    border-radius: 10%;
+}
