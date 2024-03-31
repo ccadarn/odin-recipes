@@ -8,7 +8,7 @@ body {
 
 
 h1 {
-    color: orange;
+    color: rgb(182, 104, 10);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -21,6 +21,8 @@ h2, h3, h4 {
     text-align: center;
     padding: 10px; /* Add some padding to the top and bottom of the text */
     border-radius: 50px; /* Make the border radius less drastic, 50px instead of 50% */
+    color: rgb(182, 104, 10);
+    font-size: 40px;
 }
 
 
@@ -31,10 +33,16 @@ div {
     text-align: center;
     font-weight: bold;
     font-size: 26px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 img {
     border-radius: 10%;
+    border: solid 1px black;
+}
+
+li {
+    list-style-position: inside; /* Ensure the bullet points stick to the text */
+    padding: 10px;
 }
